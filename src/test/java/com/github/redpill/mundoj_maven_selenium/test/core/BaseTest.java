@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.core;
+package com.github.redpill.mundoj_maven_selenium.test.core;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,12 +11,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.github.redpill.mundoj_maven_selenium.core.util.PropertyUtil;
+import com.github.redpill.mundoj_maven_selenium.test.core.util.PropertyUtil;
 
 public class BaseTest {
 
     private static final String LOCAL_URL = "http://127.0.0.1:8000/";
-    private static final int TIMEOUT = 200;
+    private static final int TIMEOUT = 5000;
 
     private static WebDriver driver;
     private static final String TARGET_URL = PropertyUtil.getTargetURL();

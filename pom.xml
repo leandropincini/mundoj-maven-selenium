@@ -117,7 +117,7 @@
 						<version>2.15</version>
 
 						<configuration>
-							<groups>com.github.redpill.mundoj_maven_selenium.core.category.JUnitCategory</groups>
+							<groups>com.github.redpill.mundoj_maven_selenium.test.core.category.JUnitCategory</groups>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -135,10 +135,10 @@
 						<version>2.15</version>
 
 						<configuration>
-							<groups>com.github.redpill.mundoj_maven_selenium.core.category.SeleniumCategory</groups>
+							<groups>com.github.redpill.mundoj_maven_selenium.test.core.category.SeleniumCategory</groups>
 
 							<systemPropertyVariables>
-								<targetUrl>http://myhost:8000/myapp</targetUrl>
+								<targetUrl>https://github.com/redpill/mundoj-maven-selenium</targetUrl>
 							</systemPropertyVariables>
 						</configuration>
 					</plugin>
@@ -157,7 +157,7 @@
 						<version>2.15</version>
 
 						<configuration>
-							<groups>com.github.redpill.mundoj_maven_selenium.core.category.SeleniumCategory</groups>
+							<groups>com.github.redpill.mundoj_maven_selenium.test.core.category.SeleniumCategory</groups>
 
 							<systemProperties>
 								<targetUrl>http://127.0.0.1:4444/wd/hub</targetUrl>
