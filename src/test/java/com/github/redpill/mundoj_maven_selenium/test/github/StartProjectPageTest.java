@@ -15,6 +15,11 @@ public class StartProjectPageTest extends StartProjectPage {
 	Assert.assertTrue(openHomePage());
     }
 
+    @Test
+    public void verifyReadmeTest() {
+	Assert.assertTrue(verifyReadme());
+    }
+
     public StartProjectPageTest() {
 	super();
     }
