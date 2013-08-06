@@ -5,16 +5,16 @@ import org.openqa.selenium.WebElement;
 
 import com.github.redpill.mundoj_maven_selenium.test.core.BaseTest;
 
-public class StartProjectPageNavigation extends BaseTest {
+public class IssuesPageNavigation extends BaseTest {
 
-    public void clickIssuesLink() {
+    public void clickEveryonesIssuesLink() {
 	final WebElement link = getDriver().findElement(
-		By.partialLinkText("Issues"));
+		By.partialLinkText("Everyone’s Issues"));
 	link.click();
     }
 
-    public StartProjectPageNavigation() {
+    public IssuesPageNavigation() {
 	super();
-	setURL("");
+	setURL("/issues");
     }
 }

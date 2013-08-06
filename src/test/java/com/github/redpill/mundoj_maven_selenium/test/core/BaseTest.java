@@ -42,9 +42,9 @@ public class BaseTest {
 
     public void setURL(final String url) {
 	if (null == TARGET_URL) {
-	    driver.get(LOCAL_URL);
+	    driver.get(LOCAL_URL + url);
 	} else {
-	    driver.get(TARGET_URL);
+	    driver.get(TARGET_URL + url);
 	}
     }
 

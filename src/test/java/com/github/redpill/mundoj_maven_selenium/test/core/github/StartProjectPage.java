@@ -19,6 +19,20 @@ public class StartProjectPage extends StartProjectPageNavigation {
 	return !(null == readme.getText() && "".equals(readme.getText()));
     }
 
+    public boolean verifyIssuesLink() {
+	final WebElement issues = getDriver().findElement(
+		By.partialLinkText("Issues"));
+
+	return !(null == issues.getText() && "".equals(issues.getText()));
+    }
+
+    public boolean verifyClickedIssuesLink() {
+	clickIssuesLink();
+
+	return "https://github.com/redpill/mundoj-maven-selenium/issues"
+		.equals(getDriver().getCurrentUrl());
+    }
+
     public StartProjectPage() {
 	super();
     }
