@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.test.core;
+package com.github.redpill.mundoj_maven_selenium.core;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.github.redpill.mundoj_maven_selenium.test.core.util.PropertyUtil;
+import com.github.redpill.mundoj_maven_selenium.core.util.PropertyUtil;
 
 public class BaseTest {
 

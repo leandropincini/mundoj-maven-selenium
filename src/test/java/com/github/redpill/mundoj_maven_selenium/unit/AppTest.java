@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.test.unit_test;
+package com.github.redpill.mundoj_maven_selenium.unit;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -6,7 +6,7 @@ import junit.framework.TestSuite;
 
 import org.junit.experimental.categories.Category;
 
-import com.github.redpill.mundoj_maven_selenium.test.core.category.JUnitCategory;
+import com.github.redpill.mundoj_maven_selenium.core.category.JUnitCategory;
 
 /**
  * Unit test for simple App.

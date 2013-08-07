@@ -1,6 +1,5 @@
-package com.github.redpill.mundoj_maven_selenium.test.core.github;
+package com.github.redpill.mundoj_maven_selenium.selenium.github;
 
-import com.github.redpill.mundoj_maven_selenium.test.core.github.navigation.IssuesPageNavigation;
 
 public class IssuesPage extends IssuesPageNavigation {
 

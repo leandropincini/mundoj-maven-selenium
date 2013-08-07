@@ -1,9 +1,7 @@
-package com.github.redpill.mundoj_maven_selenium.test.core.github;
+package com.github.redpill.mundoj_maven_selenium.selenium.github;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import com.github.redpill.mundoj_maven_selenium.test.core.github.navigation.StartProjectPageNavigation;
 
 public class StartProjectPage extends StartProjectPageNavigation {
 

@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.test.core.util;
+package com.github.redpill.mundoj_maven_selenium.core.util;
 
 public class PropertyUtil {
 

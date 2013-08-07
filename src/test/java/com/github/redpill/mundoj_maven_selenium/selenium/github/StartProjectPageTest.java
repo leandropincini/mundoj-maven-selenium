@@ -1,11 +1,10 @@
-package com.github.redpill.mundoj_maven_selenium.test.github;
+package com.github.redpill.mundoj_maven_selenium.selenium.github;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import com.github.redpill.mundoj_maven_selenium.test.core.category.SeleniumSlowCategory;
-import com.github.redpill.mundoj_maven_selenium.test.core.github.StartProjectPage;
+import com.github.redpill.mundoj_maven_selenium.core.category.SeleniumSlowCategory;
 
 @Category(SeleniumSlowCategory.class)
 public class StartProjectPageTest extends StartProjectPage {

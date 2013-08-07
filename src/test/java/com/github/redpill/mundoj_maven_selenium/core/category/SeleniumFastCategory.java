@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.test.core.category;
+package com.github.redpill.mundoj_maven_selenium.core.category;
 
 public interface SeleniumFastCategory extends SeleniumCategory {
 
