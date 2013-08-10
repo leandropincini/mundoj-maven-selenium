@@ -163,7 +163,7 @@
 		</profile>
 
 		<profile>
-			<id>seleniumFast</id>
+			<id>seleniumBasic</id>
 
 			<build>
 				<plugins>
