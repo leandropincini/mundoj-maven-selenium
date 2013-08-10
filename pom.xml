@@ -173,7 +173,7 @@
 						<version>2.15</version>
 
 						<configuration>
-							<groups>com.github.redpill.mundoj_maven_selenium.core.category.SeleniumFastCategory</groups>
+							<groups>com.github.redpill.mundoj_maven_selenium.core.category.SeleniumBasicCategory</groups>
 
 							<systemPropertyVariables>
 								<targetUrl>https://github.com/redpill/mundoj-maven-selenium</targetUrl>

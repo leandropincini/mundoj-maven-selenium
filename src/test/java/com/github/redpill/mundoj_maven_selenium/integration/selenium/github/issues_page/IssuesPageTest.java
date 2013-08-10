@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import com.github.redpill.mundoj_maven_selenium.core.category.SeleniumFastCategory;
+import com.github.redpill.mundoj_maven_selenium.core.category.SeleniumSlowCategory;
 
-@Category(SeleniumFastCategory.class)
+@Category(SeleniumSlowCategory.class)
 public class IssuesPageTest extends IssuesPage {
 
     @Test

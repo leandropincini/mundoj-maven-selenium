@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import com.github.redpill.mundoj_maven_selenium.core.category.SeleniumSlowCategory;
+import com.github.redpill.mundoj_maven_selenium.core.category.SeleniumBasicCategory;
 
-@Category(SeleniumSlowCategory.class)
+@Category(SeleniumBasicCategory.class)
 public class StartProjectPageTest extends StartProjectPage {
 
     @Test
