@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.selenium.github;
+package com.github.redpill.mundoj_maven_selenium.integration.selenium.github.start_page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

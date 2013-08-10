@@ -1,4 +1,4 @@
-package com.github.redpill.mundoj_maven_selenium.selenium.github;
+package com.github.redpill.mundoj_maven_selenium.integration.selenium.github.issues_page;
 
 
 public class IssuesPage extends IssuesPageNavigation {
